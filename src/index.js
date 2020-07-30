@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles/index.css';
+import App from './components/App';
 
 ReactDOM.render(
-  <h1 className="text-center">React Calculator App</h1>,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById('root'),
 );
