@@ -1,5 +1,4 @@
 /* eslint-disable react/require-default-props */
-
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -10,6 +9,7 @@ const Button = ({
     width: size ? '50%' : '25%',
     backgroundColor: color,
   };
+
   return (
     <button type="button" className={btn} style={style}>
       {name}
