@@ -3,10 +3,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = ({
-  name, btn, color, size,
+  name, btn, color, wide,
 }) => {
   const style = {
-    width: size ? '50%' : '25%',
+    width: wide ? '50%' : '25%',
     backgroundColor: color,
   };
 
@@ -19,13 +19,13 @@ const Button = ({
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,
-  size: PropTypes.bool,
+  wide: PropTypes.bool,
   color: PropTypes.string,
   btn: PropTypes.string,
 };
 
 Button.defaultProps = {
-  size: false,
+  wide: false,
   color: 'orange',
 };
 
