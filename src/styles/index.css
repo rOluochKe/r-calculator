@@ -26,6 +26,33 @@ code {
     monospace;
 }
 
-.text-center {
+.app {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 0 auto;
+  width: 700px;
+  height: 500px;
+  margin-top: 20px;
+}
+
+.display {
+  background-color: grey;
+  color: #fff;
+  direction: rtl;
+  flex-direction: row;
+  font-size: 50px;
+  font-weight: bold;
+  height: 30px;
+  padding: 20px;
+}
+
+.btn-group {
+  height: 100px;
+}
+
+.btn {
+  border: rgb(182, 178, 178) 1px solid;
+  font-size: 20px;
+  height: 100%;
   text-align: center;
 }
