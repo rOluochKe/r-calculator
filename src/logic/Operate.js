@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import Big from 'big-js';
 
 const operate = (numberOne, numberTwo, operation) => {
